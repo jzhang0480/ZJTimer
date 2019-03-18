@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8C3D88223FD96F001B21B9 /* ZJKillTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C3D87223FD96F001B21B9 /* ZJKillTimer.swift */; };
+		8F8C3D8A223FDCF2001B21B9 /* KillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C3D89223FDCF2001B21B9 /* KillViewController.swift */; };
 		8FDCC9442232B46600026211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDCC9432232B46600026211 /* AppDelegate.swift */; };
 		8FDCC9462232B46600026211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDCC9452232B46600026211 /* ViewController.swift */; };
 		8FDCC9492232B46600026211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDCC9472232B46600026211 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F8C3D87223FD96F001B21B9 /* ZJKillTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJKillTimer.swift; sourceTree = "<group>"; };
+		8F8C3D89223FDCF2001B21B9 /* KillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillViewController.swift; sourceTree = "<group>"; };
 		8FDCC9402232B46600026211 /* ZJTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDCC9432232B46600026211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDCC9452232B46600026211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +65,9 @@
 				8FDCC9432232B46600026211 /* AppDelegate.swift */,
 				8FDCC9452232B46600026211 /* ViewController.swift */,
 				8FDCC9552232B6F400026211 /* TimerTestViewController.swift */,
+				8F8C3D89223FDCF2001B21B9 /* KillViewController.swift */,
 				8FDCC9572232C24A00026211 /* ZJTimer.swift */,
+				8F8C3D87223FD96F001B21B9 /* ZJKillTimer.swift */,
 				8FDCC9472232B46600026211 /* Main.storyboard */,
 				8FDCC94A2232B46700026211 /* Assets.xcassets */,
 				8FDCC94C2232B46700026211 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8C3D8A223FDCF2001B21B9 /* KillViewController.swift in Sources */,
+				8F8C3D88223FD96F001B21B9 /* ZJKillTimer.swift in Sources */,
 				8FDCC9562232B6F400026211 /* TimerTestViewController.swift in Sources */,
 				8FDCC9582232C24A00026211 /* ZJTimer.swift in Sources */,
 				8FDCC9462232B46600026211 /* ViewController.swift in Sources */,

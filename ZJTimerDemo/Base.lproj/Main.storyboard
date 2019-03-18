@@ -29,11 +29,23 @@
                                     <segue destination="TKQ-Xq-nhq" kind="show" id="Qv7-oJ-yHQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKd-eT-c6z">
+                                <rect key="frame" x="137" y="394" width="123" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ElL-7h-HIK"/>
+                                </constraints>
+                                <state key="normal" title="点击跳转秒杀页面"/>
+                                <connections>
+                                    <segue destination="TDr-OH-PDF" kind="show" id="hqf-QM-1Z4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="x8y-od-b6o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HmS-zf-bas"/>
                             <constraint firstItem="x8y-od-b6o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tv8-6P-ua3"/>
+                            <constraint firstItem="IKd-eT-c6z" firstAttribute="top" secondItem="x8y-od-b6o" secondAttribute="bottom" constant="40.5" id="hcO-bG-5nm"/>
+                            <constraint firstItem="IKd-eT-c6z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kyI-aX-iuH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -108,6 +120,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wND-32-zwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52" y="788.45577211394311"/>
+        </scene>
+        <!--TimerTestVC-->
+        <scene sceneID="qQP-mO-Lbg">
+            <objects>
+                <viewController id="TDr-OH-PDF" customClass="KillViewController" customModule="ZJTimerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KFv-gv-2Jh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMu-lm-gW5">
+                                <rect key="frame" x="0.0" y="308" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IXg-oa-1a1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ggV-9Y-3cy" firstAttribute="trailing" secondItem="FMu-lm-gW5" secondAttribute="trailing" id="1Jp-mp-4Wz"/>
+                            <constraint firstItem="FMu-lm-gW5" firstAttribute="leading" secondItem="ggV-9Y-3cy" secondAttribute="leading" id="3Lj-ZN-rca"/>
+                            <constraint firstItem="FMu-lm-gW5" firstAttribute="top" secondItem="ggV-9Y-3cy" secondAttribute="top" constant="244" id="TdS-Vo-Kut"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ggV-9Y-3cy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TimerTestVC" id="jv2-Va-xJd"/>
+                    <connections>
+                        <outlet property="labelText" destination="FMu-lm-gW5" id="2Bx-Ve-xXh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rg-H3-gtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1577" y="1501"/>
         </scene>
     </scenes>
 </document>
